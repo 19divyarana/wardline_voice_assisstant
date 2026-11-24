@@ -1,5 +1,5 @@
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://wardline-voice-assisstant-4.onrender.com/";
 
 const doctorGrid = document.getElementById("doctorGrid");
 const doctorSearch = document.getElementById("doctorSearch");
