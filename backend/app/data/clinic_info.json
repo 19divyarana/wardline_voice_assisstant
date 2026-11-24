@@ -1,0 +1,47 @@
+
+{
+  "clinic": {
+    "name": "Wardline Healthcare Centre",
+    "description": "A multi-specialty healthcare centre offering outpatient consultations.",
+    "address": "Madhapur, Hyderabad, Telangana, India",
+    "phone": "+91-9000000000",
+    "email": "support@wardline.example",
+    "website": "https://example.com",
+    "working_days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "working_hours": "09:00 AM - 08:00 PM",
+    "closed_days": ["Sunday"],
+    "emergency_available": false,
+    "facilities": [
+      "General consultation",
+      "Cardiology consultation",
+      "Dermatology consultation",
+      "Pediatrics",
+      "Gynecology",
+      "Orthopedics",
+      "Online consultation",
+      "Appointment assistance"
+    ],
+    "payment_methods": [
+      "Cash",
+      "UPI",
+      "Debit Card",
+      "Credit Card"
+    ],
+    "appointment_policy": {
+      "advance_booking": true,
+      "cancellation": "Contact reception to cancel or reschedule.",
+      "late_arrival": "Patients should arrive 15 minutes before their appointment.",
+      "required_documents": [
+        "Previous medical reports, if available",
+        "Existing prescription, if available"
+      ]
+    }
+  }
+}
