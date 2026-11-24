@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wardline | Intelligent Healthcare</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a class="brand" href="#">
+      <span class="brand-icon">✳</span>
+      wardline<span class="brand-dot">.</span>
+    </a>
+
+    <div class="nav-links">
+      <a href="#care">Our care</a>
+      <a href="#doctors">Find a doctor</a>
+      <a href="#assistant">AI assistant</a>
+    </div>
+
+    <a href="#booking" class="nav-button">Book appointment ↗</a>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="eyebrow">
+          <span class="pulse"></span>
+          THE FUTURE OF PERSONAL HEALTHCARE
+        </div>
+
+        <h1>Care that feels<br>
+          <span>ahead of its time.</span>
+        </h1>
+
+        <p>
+          Meet a smarter way to access healthcare. Find specialists,
+          explore your options and get assistance whenever you need it.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#doctors" class="primary-button">Explore specialists ↗</a>
+          <a href="#assistant" class="secondary-button">Talk to Wardline AI</a>
+        </div>
+
+        <div class="hero-stats">
+          <div><strong>06</strong><span>Specialists</span></div>
+          <div><strong>24/7</strong><span>AI assistance</span></div>
+          <div><strong>01</strong><span>Connected care</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="holo-circle">
+          <div class="holo-person">
+            <div class="head"></div>
+            <div class="neck"></div>
+            <div class="body-shape"></div>
+            <div class="heart">♥</div>
+          </div>
+          <div class="scan-line"></div>
+        </div>
+
+        <div class="floating-card card-top">
+          <span class="card-icon">✚</span>
+          <div><strong>Connected care</strong><small>One place for your health</small></div>
+        </div>
+
+        <div class="floating-card card-bottom">
+          <span class="status-dot"></span>
+          <div><strong>Wardline AI</strong><small>Ready to assist you</small></div>
+        </div>
+
+        <div class="visual-caption">YOUR HEALTH. IN A NEW DIMENSION.</div>
+      </div>
+    </section>
+
+    <div class="ticker">
+      <span>SMARTER HEALTHCARE</span> ✳
+      <span>HUMAN-CENTRED AI</span> ✳
+      <span>CARE WITHOUT COMPLEXITY</span> ✳
+      <span>YOUR HEALTH, CONNECTED</span>
+    </div>
+
+    <section class="section" id="care">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">A BETTER WAY TO GET CARE</div>
+          <h2>Healthcare, <span>reimagined.</span></h2>
+        </div>
+        <p>Everything you need to take the next step in your healthcare journey.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-symbol">◉</div>
+          <span class="feature-number">01 / DISCOVER</span>
+          <h3>Find your specialist</h3>
+          <p>Explore doctors by speciality, experience and consultation preferences.</p>
+          <a href="#doctors">Explore doctors ↗</a>
+        </article>
+
+        <article class="feature-card highlighted">
+          <div class="feature-symbol">✳</div>
+          <span class="feature-number">02 / CONNECT</span>
+          <h3>Talk to Wardline AI</h3>
+          <p>Ask questions about clinic services, doctors and appointment assistance.</p>
+          <a href="#assistant">Start a conversation ↗</a>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-symbol">▦</div>
+          <span class="feature-number">03 / BOOK</span>
+          <h3>Plan your visit</h3>
+          <p>Choose a doctor and submit an appointment request in a few simple steps.</p>
+          <a href="#booking">Request a slot ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section doctors-section" id="doctors">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">THE PEOPLE BEHIND YOUR CARE</div>
+          <h2>Meet your <span>specialists.</span></h2>
+        </div>
+        <p>Find the right medical professional for your needs.</p>
+      </div>
+
+      <div class="doctor-controls">
+        <input id="doctorSearch" type="search" placeholder="Search doctors or specialities..." />
+        <select id="specialtyFilter">
+          <option value="">All specialities</option>
+          <option value="general">General Physician</option>
+          <option value="cardio">Cardiology</option>
+          <option value="derma">Dermatology</option>
+          <option value="pediatric">Pediatrics</option>
+          <option value="gyne">Gynecology</option>
+          <option value="ortho">Orthopedics</option>
+        </select>
+      </div>
+
+      <div id="doctorGrid" class="doctor-grid">
+        <p class="loading-text">Loading our specialists...</p>
+      </div>
+    </section>
+
+    <section class="assistant-section" id="assistant">
+      <div class="assistant-intro">
+        <div class="eyebrow">YOUR PERSONAL HEALTHCARE COMPANION</div>
+        <h2>Meet <span>Wardline AI.</span></h2>
+        <p>
+          Have a question? Start a conversation. Our AI assistant can help
+          you explore clinic information, doctors and appointment procedures.
+        </p>
+
+        <div class="voice-note">
+          <span>◉</span>
+          Voice-enabled conversations
+        </div>
+      </div>
+
+      <div class="chat-panel">
+        <div class="chat-header">
+          <div class="ai-avatar">✳</div>
+          <div>
+            <strong>Wardline Assistant</strong>
+            <small><span class="status-dot"></span> Online</small>
+          </div>
+          <button id="clearChat" class="clear-chat">Reset ↻</button>
+        </div>
+
+        <div id="chatMessages" class="chat-messages">
+          <div class="message bot-message">
+            Hello! Welcome to Wardline Healthcare Centre. How can I help you today?
+          </div>
+        </div>
+
+        <div class="suggestions">
+          <button class="suggestion">Find a cardiologist</button>
+          <button class="suggestion">Clinic timings</button>
+          <button class="suggestion">How do I book?</button>
+        </div>
+
+        <div class="chat-input-area">
+          <input id="chatInput" type="text" placeholder="Ask Wardline anything..." />
+          <button id="micButton" class="mic-button" title="Speak">🎙</button>
+          <button id="sendButton" class="send-button">↑</button>
+        </div>
+        <div class="chat-footnote">AI responses are informational and are not a medical diagnosis.</div>
+      </div>
+    </section>
+
+    <section class="section booking-section" id="booking">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">YOUR NEXT STEP STARTS HERE</div>
+          <h2>Request an <span>appointment.</span></h2>
+        </div>
+        <p>Choose your specialist and preferred time. Our team can follow up on your request.</p>
+      </div>
+
+      <form id="bookingForm" class="booking-form">
+        <div class="form-field">
+          <label for="patientName">Your name</label>
+          <input id="patientName" name="patient_name" required placeholder="Enter your full name">
+        </div>
+
+        <div class="form-field">
+          <label for="patientPhone">Phone number</label>
+          <input id="patientPhone" name="phone" required type="tel" placeholder="Enter your phone number">
+        </div>
+
+        <div class="form-field">
+          <label for="bookingDoctor">Choose a doctor</label>
+          <select id="bookingDoctor" name="doctor_id" required>
+            <option value="">Select a specialist</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="appointmentDate">Preferred date</label>
+          <input id="appointmentDate" name="appointment_date" type="date" required>
+        </div>
+
+        <div class="form-field">
+          <label for="appointmentTime">Preferred time</label>
+          <select id="appointmentTime" name="appointment_time" required>
+            <option value="">Select a time</option>
+            <option value="09:00 AM">09:00 AM</option>
+            <option value="10:00 AM">10:00 AM</option>
+            <option value="11:00 AM">11:00 AM</option>
+            <option value="12:00 PM">12:00 PM</option>
+            <option value="04:00 PM">04:00 PM</option>
+            <option value="05:00 PM">05:00 PM</option>
+            <option value="06:00 PM">06:00 PM</option>
+            <option value="07:00 PM">07:00 PM</option>
+          </select>
+        </div>
+
+        <button type="submit" class="primary-button booking-submit">Submit appointment request ↗</button>
+        <p id="bookingStatus" class="booking-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#"><span class="brand-icon">✳</span> wardline<span class="brand-dot">.</span></a>
+    <p>Thoughtful technology. More connected care.</p>
+    <span>© 2026 Wardline Healthcare Centre</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
