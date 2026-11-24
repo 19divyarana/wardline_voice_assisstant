@@ -5,7 +5,7 @@ from threading import Lock
 from uuid import uuid4
 from datetime import datetime, timezone
 
-DATA_DIR = Path(__file__).parent / "data"
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 APPOINTMENTS_FILE = DATA_DIR / "appointments.json"
 
 _file_lock = Lock()
