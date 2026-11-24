@@ -1,0 +1,12 @@
+[
+    {
+        "id": "53714532-949b-4277-8f95-34a6af0d395a",
+        "patient_name": "divya",
+        "phone": "1234567890",
+        "doctor_id": "DOC001",
+        "date": "2026-11-25",
+        "time": "13:00",
+        "status": "requested",
+        "created_at": "2026-11-24T08:00:02.549027+00:00"
+    }
+]

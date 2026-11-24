@@ -1,0 +1,73 @@
+
+[
+  {
+    "id": "FAQ001",
+    "category": "Appointments",
+    "question": "How can I book an appointment?",
+    "answer": "You can request an appointment through Wardline's voice assistant or contact the clinic reception. The assistant will collect your preferred doctor and appointment time.",
+    "keywords": ["book", "appointment", "schedule", "doctor"]
+  },
+  {
+    "id": "FAQ002",
+    "category": "Appointments",
+    "question": "Can I cancel an appointment?",
+    "answer": "Yes. Contact clinic reception to cancel or reschedule an appointment.",
+    "keywords": ["cancel", "reschedule", "change appointment"]
+  },
+  {
+    "id": "FAQ003",
+    "category": "Payments",
+    "question": "What payment methods are accepted?",
+    "answer": "The clinic accepts cash, UPI, debit cards and credit cards.",
+    "keywords": ["payment", "upi", "cash", "card", "fees"]
+  },
+  {
+    "id": "FAQ004",
+    "category": "Working Hours",
+    "question": "What are the clinic timings?",
+    "answer": "The clinic operates Monday through Saturday from 9 AM to 8 PM. It is closed on Sundays.",
+    "keywords": ["timings", "opening", "closing", "hours", "open"]
+  },
+  {
+    "id": "FAQ005",
+    "category": "Consultation",
+    "question": "Can I consult a doctor online?",
+    "answer": "Online consultations are available with selected doctors. Please check the individual doctor's appointment modes.",
+    "keywords": ["online", "virtual", "video consultation"]
+  },
+  {
+    "id": "FAQ006",
+    "category": "Preparation",
+    "question": "What should I bring to my appointment?",
+    "answer": "Bring previous medical reports and existing prescriptions if available. Please arrive 15 minutes before your scheduled appointment.",
+    "keywords": ["documents", "reports", "prescription", "visit"]
+  },
+  {
+    "id": "FAQ007",
+    "category": "Emergency",
+    "question": "Does Wardline provide emergency services?",
+    "answer": "This demonstration clinic does not provide emergency services. For urgent or life-threatening conditions, contact local emergency services or go to the nearest emergency department.",
+    "keywords": ["emergency", "urgent", "ambulance"]
+  },
+  {
+    "id": "FAQ008",
+    "category": "Doctors",
+    "question": "How can I find a specialist?",
+    "answer": "You can ask the assistant to find doctors by specialization, experience, language or consultation mode.",
+    "keywords": ["specialist", "doctor", "cardiologist", "dermatologist"]
+  },
+  {
+    "id": "FAQ009",
+    "category": "Fees",
+    "question": "How much does a consultation cost?",
+    "answer": "Consultation fees depend on the doctor. The assistant can provide the listed fee for each doctor.",
+    "keywords": ["consultation fee", "price", "cost"]
+  },
+  {
+    "id": "FAQ010",
+    "category": "Location",
+    "question": "Where is the clinic located?",
+    "answer": "Wardline Healthcare Centre is listed at Madhapur, Hyderabad, Telangana, India. Confirm the address with reception before visiting.",
+    "keywords": ["address", "location", "directions", "where"]
+  }
+]
